@@ -23,17 +23,14 @@ public String set_produto(Produto produto){
             return "Código já existe na lista. Não é possível cadastrar o novo produto.";
 
         } else {
-            this.produtos.add((Produto) produto);
+            this.produtos.add(produto);
             return "Cadastrado com Sucesso";
         }
 }
 
 
 public boolean exists_produto(Produto produto){
-    if(this.produtos.contains(produto)){
-        return true;
-    }
-    return false;
+    return this.produtos.contains(produto);
 }
 
 public Object search_produto(Produto produto){
