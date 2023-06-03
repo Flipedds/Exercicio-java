@@ -32,29 +32,31 @@ public class TesteProduto {
         System.out.println("\n");
 
         // Confirmar se o produto existe na lista
-         System.out.println(conjunto.exists_produto(produto_um));
+        System.out.println(conjunto.exists_produto(produto_um));
 
 //        Procurar produto específico
-         System.out.println(conjunto.search_produto(produto_um));
-         System.out.println("\n");
+        System.out.println(conjunto.search_produto(produto_um));
+        System.out.println("\n");
         
-        // Listar todos os produtos da lista
+        // Mostrar todos os produtos da lista
         System.out.println(conjunto);
 
         // Atualizar preço do produto 'porcentagem' da lista
         // System.out.println(conjunto.atualizar_preco_produto(produto_um, 10));
 
         // Atualizar nome do produto da lista
-        // System.out.println(conjunto.atualizar_nome_produto(produto_um, "Computador"));
+        System.out.println(conjunto.atualizar_nome_produto(produto_um, "Computador"));
+        System.out.println("\n");
+        System.out.println(conjunto);
 
         // Atualizar valor do produto na lista
 //        System.out.println(conjunto.atualizar_valor_produto(produto_um, 2000));
 
         // Remover produto da lista
-         System.out.println(conjunto.remove_produto(produto_um));
+        System.out.println(conjunto.remove_produto(produto_um));
 
-         System.out.println("\n");
-         System.out.println(conjunto);
+        System.out.println("\n");
+        System.out.println(conjunto);
 
 //        Atualizar fornecedor do produto
         System.out.println(conjunto.atualizar_fornecedor_produto(produto_dois, forn_1));
