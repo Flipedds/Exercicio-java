@@ -2,7 +2,7 @@
 
 Exercício de Java: Produtos
 
-## Partes importantes do projeto
+## Partes importantes do Exercício
 
 Estrutura:
 
