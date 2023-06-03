@@ -11,6 +11,6 @@ Estrutura:
     - `ConjuntoProdutos`: Classe que possui um array que armazena os produtos.
     - `Fornecedor`: Classe Fornecedor do projeto.
     - `Produto`: Classe produto do projeto.
-  `TesteProduto`: Classe main do projeto.
+  - `TesteProduto`: Classe main do projeto.
 
 
