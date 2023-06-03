@@ -1,18 +1,16 @@
-## Getting Started
+## Exercício: Introdução a JAVA
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Exercício de Java: Produtos
 
-## Folder Structure
+## Partes importantes do projeto
 
-The workspace contains two folders by default, where:
+Estrutura:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src`
+  - `model`: possui as classes do projeto.
+    - `ConjuntoProdutos`: Classe que possui um array que armazena os produtos.
+    - `Fornecedor`: Classe Fornecedor do projeto.
+    - `Produto`: Classe produto do projeto.
+  `TesteProduto`: Classe main do projeto.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
